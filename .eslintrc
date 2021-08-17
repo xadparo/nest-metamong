@@ -16,5 +16,6 @@
     ],
     "rules": {
         "semi": ["error", "never"],
-    },
+        "linebreak-style": ["error", "unix"]
+    }
 }
