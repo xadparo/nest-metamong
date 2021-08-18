@@ -16,6 +16,8 @@
     ],
     "rules": {
         "semi": ["error", "never"],
+        "require-jsdoc": "off",
+        "object-curly-spacing": ["error", "always"],
         "linebreak-style": ["error", "unix"]
     }
 }
