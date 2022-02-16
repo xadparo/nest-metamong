@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node -r tsconfig-paths/register .",
-    "start:dev": "nest start --watch"
+    "dev": "nest start --watch"
   },
   "devDependencies": {
     "@types/module-alias": "^2",
