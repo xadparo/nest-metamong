@@ -996,6 +996,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-transformer@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "class-transformer@npm:0.5.1"
+  checksum: cae8c7312e63beb102ec7e1218ff186e66f3a29c685b428e691708d9f015c3dcd19238afc634298c3eecef0872eb81d628c2b0c7de352af5c58237d39431ab72
+  languageName: node
+  linkType: hard
+
+"class-validator@npm:^0.13.2":
+  version: 0.13.2
+  resolution: "class-validator@npm:0.13.2"
+  dependencies:
+    libphonenumber-js: ^1.9.43
+    validator: ^13.7.0
+  checksum: 5d45d5571ed492aaeb66e37ee1dc254e33b53cd02f9753db6e97f280593cc4eaef5211fd63ebff66d5bdfd8b0eb4d314150ef57f8a320a5167fe65cecc51a790
+  languageName: node
+  linkType: hard
+
 "clipanion@npm:^3.2.0-rc.4":
   version: 3.2.0-rc.10
   resolution: "clipanion@npm:3.2.0-rc.10"
@@ -2059,6 +2076,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"libphonenumber-js@npm:^1.9.43":
+  version: 1.10.6
+  resolution: "libphonenumber-js@npm:1.10.6"
+  checksum: 69fe55d15eb45e9138b8c3b99160f1f90f1114bb0d6028b4d74ec31a02609e954e079aae64d542c98911f4aa7018ea80f93103059b489acef4351a5f827d1f80
+  languageName: node
+  linkType: hard
+
 "lodash.clonedeep@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
@@ -2140,6 +2164,8 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^4.28.0
     "@typescript-eslint/parser": ^4.28.0
     "@yarnpkg/pnpify": ^3.1.1
+    class-transformer: ^0.5.1
+    class-validator: ^0.13.2
     eslint: ^7.29.0
     eslint-config-google: ^0.14.0
     module-alias: ^2.2.2
@@ -3211,6 +3237,13 @@ typescript@^4.3.5:
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0"
   checksum: b56f83d9ff14187562badc4955dadeef53ff3abde478ce60759539dd8d5472a91fce9db6083fc2450e54cef6f2110c1a28d8c12162dbf575a6cfcb846986904b
+  languageName: node
+  linkType: hard
+
+"validator@npm:^13.7.0":
+  version: 13.7.0
+  resolution: "validator@npm:13.7.0"
+  checksum: d6621f541d49f354be0944544665ecca5853e7d08def5de58204c7ea3b4020ddc0d64d7232fa9ea9ff57656c8a955117c76f0267e6d4690d761cfd018857f62d
   languageName: node
   linkType: hard
 
